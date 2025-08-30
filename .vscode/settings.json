@@ -1,0 +1,11 @@
+{
+	"go.goroot": "/Users/erik/.local/share/mise/installs/go/1.25.0",
+	"debug.javascript.defaultRuntimeExecutable": {
+		"pwa-node": "/Users/erik/.local/share/mise/shims/node"
+    },
+    "go.alternateTools": {
+        "go": "/Users/erik/.local/share/mise/shims/go",
+        "dlv": "/Users/erik/.local/share/mise/shims/dlv",
+        "gopls": "/Users/erik/.local/share/mise/shims/gopls"
+    }
+}

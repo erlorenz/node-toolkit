@@ -1,0 +1,52 @@
+{
+	"name": "@eldev/node-toolkit",
+	"version": "0.1.0",
+	"description": "A collection of useful libs for node.js.",
+	"homepage": "https://github.com/erlorenz/node-toolkit#readme",
+	"bugs": {
+		"url": "https://github.com/erlorenz/node-toolkit/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/erlorenz/node-toolkit.git"
+	},
+	"license": "MIT",
+	"author": "Erik Lorenz",
+	"type": "module",
+	"main": "index.js",
+	"exports": {
+		".": "./dist/index.js",
+		"./logger": "./dist/logger",
+		"./logger/winston": "./dist/logger/winston.js",
+		"./logger/pino": "./dist/logger/pino.js",
+		"./logger/express": "./dist/logger/express.js"
+	},
+	"peerDependencies": {
+		"express": ">=5.0.0",
+		"pino": ">=9.0.0",
+		"winston": ">=3.0.0"
+	},
+	"peerDependenciesMeta": {
+		"pino": {
+			"optional": true
+		},
+		"winston": {
+			"optional": true
+		},
+		"express": {
+			"optional": true
+		}
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@types/express": "^5.0.3",
+		"express": "^5.1.0",
+		"pino": "^9.9.0"
+	},
+	"dependencies": {
+		"@types/node": "^24.3.0"
+	}
+}
